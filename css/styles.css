@@ -1,6 +1,5 @@
-* {margin: 0;
-padding: 0;
-border: 0;}
+* {box-sizing: border-box;
+    margin: 0;}
 
 h1,
 h2,
@@ -42,16 +41,16 @@ background: var(--body-color);}
 
 /*---------------HEADER------------------------------*/
 .header {background: var(--header-color);
-display: flex;
-align-items: center;}
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 215px;
+border: 1px solid red;}
 
-.container-header {
-    display: block;
-}
-
-.container-contact {
-    display: block;
-}
+.container {width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    }
 
 .header-nav {}
 
