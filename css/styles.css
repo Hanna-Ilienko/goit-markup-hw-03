@@ -121,7 +121,7 @@ border: 1px solid red;}
 
 .company-list {}
 
-.company-item {}
+.company-item {border: 1px solid red;}
 
 .subtitle-third {font-weight: 700;
     font-size: 14px;
@@ -147,7 +147,6 @@ max-width: 270px;
     line-height: 1.17em;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-top: 94px;
 margin-bottom: 50px;}
 
 .work-list {}
@@ -161,12 +160,16 @@ margin-bottom: 50px;}
     line-height: 1.19em;
     letter-spacing: 0.03em;
     color: #212121;
-margin-bottom: 10px;}
+margin-bottom: 10px;
+}
 
 .workers {background: #F5F4FA;
 padding-top: 94px;
     padding-bottom: 94px;
-    border: 1px solid red;}
+    border: 1px solid red;
+}
+
+.text-workers{padding-bottom: 30px;}
 
 .workers-list {}
 
