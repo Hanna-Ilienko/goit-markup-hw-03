@@ -110,7 +110,13 @@ padding-top: 200px;
     color: #FFFFFF;
 max-width: 696px;
 max-height: 120px;
-margin-bottom: 30px;}
+margin-bottom: 30px;
+text-align: center;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
 
 .order-btn {background: var(--button-color);
 font-weight: 700;
@@ -124,15 +130,19 @@ display: flex;
 max-width: 200px;
 max-height: 50px;
 border: 1px var(--button-color);
-border-radius: 4px;}
+border-radius: 4px;
+display: block;
+margin: 0 auto;}
 
 .company {padding-top: 94px;
     padding-bottom: 94px;
 border: 1px solid red;}
 
-.company-list {}
+.company-list {display: flex;}
 
 .company-item {border: 1px solid red;}
+
+.company-item {}
 
 .subtitle-third {font-weight: 700;
     font-size: 14px;
@@ -158,11 +168,12 @@ max-width: 270px;
     line-height: 1.17em;
     letter-spacing: 0.03em;
     color: #212121;
-margin-bottom: 50px;}
+margin-bottom: 50px;
+text-align: center;}
 
-.work-list {}
+.work-list {display: flex;}
 
-.work-item {}
+.work-item {margin-left: 30px;}
 
 .work-image {}
 
@@ -182,9 +193,11 @@ padding-top: 94px;
 
 .text-workers{padding-bottom: 30px;}
 
-.workers-list {}
+.workers-list {display: flex;
+margin-left: -30px;}
 
-.workers-item {}
+.workers-item {flex-basis: calc(100%-120px)/4;
+margin-left: 30px;}
 
 .workers-image {margin-bottom: 30px;}
 /*-----------portfolio---MAIN---------------------*/
