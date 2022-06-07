@@ -210,6 +210,8 @@ margin-left: 30px;}
     padding-bottom: 56px;
     border: 1px solid red;}
 
+    .buttons-list .container {display: flex;}
+
 .buttons-item {}
 
 .buttons-btn {background: var(--buttons-btn-color);
@@ -228,9 +230,14 @@ color: #FFFFFF;
 
 .projects-list {padding-top: 0;
     padding-bottom: 94px;
-    border: 1px solid red;}
+    border: 1px solid red;
+margin-left: -30px;}
 
-.projects-item {}
+    .projects-list .container {display: flex;
+    flex-wrap: wrap;}
+
+.projects-item {flex-basis: calc(100%-270px)/9;
+margin-left: 30px;}
 
 .projects-image {margin-bottom: 20px;}
 
